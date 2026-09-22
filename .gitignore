@@ -1,0 +1,41 @@
+# ============================================================
+#  PS5 直播推流助手 · .gitignore
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- 编辑器 / IDE ----------
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---------- PyInstaller 构建产物 ----------
+build/
+dist/
+*.spec
+
+# ---------- 运行时生成：含本机会话令牌，请勿提交 ----------
+stream_urls.txt
+**/stream_urls.txt
+ps5live_log.txt
+selftest_*
+selftest_result.txt
+
+# ---------- 备份 / 开发期临时文件 ----------
+*.bak
+*.bak-*
+*.tmp
+_ui_shots/
+_shots/
+real_shots/
+shots/
